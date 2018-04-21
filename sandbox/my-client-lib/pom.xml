@@ -35,6 +35,20 @@
           <moduleShortName>myCoolCodeApp</moduleShortName>
         </configuration>
       </plugin>
+      <plugin>
+		 <groupId>org.apache.maven.plugins</groupId>
+	     <artifactId>maven-deploy-plugin</artifactId>
+		 <configuration>
+		    <skip>false</skip>
+	     </configuration>
+	  </plugin>
+	  <plugin>
+        <groupId>com.github.github</groupId>
+        <artifactId>site-maven-plugin</artifactId>
+        <configuration>
+          <skip>false</skip>
+        </configuration>
+      </plugin>
     </plugins>
   </build>
 </project>
