@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module>
+  <inherits name="com.google.gwt.user.User" />
+  <inherits name="com.google.gwt.user.theme.clean.Clean" />
+  
+  <inherits name="net.coolcode.gwt.MyCoolCodeApp" />
+
+  <!-- Specify the paths for translatable code -->
+  <source path="" />
+
+  <entry-point class="com.example.project.sandbox.App" />
+
+  <!-- Only support recent browsers -->
+  <!-- <set-property name="user.agent" value="ie10,gecko1_8,safari" />   -->
+  <set-property name="user.agent" value="safari" />
+</module>
