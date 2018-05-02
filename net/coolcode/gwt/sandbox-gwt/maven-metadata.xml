@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <metadata>
   <groupId>net.coolcode.gwt</groupId>
-  <artifactId>my-client-lib</artifactId>
+  <artifactId>sandbox-gwt</artifactId>
   <versioning>
     <versions>
       <version>0.0.1-SNAPSHOT</version>
     </versions>
-    <lastUpdated>20180421222225</lastUpdated>
+    <lastUpdated>20180502021246</lastUpdated>
   </versioning>
 </metadata>
