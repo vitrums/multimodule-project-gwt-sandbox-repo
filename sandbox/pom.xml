@@ -87,7 +87,7 @@
         <plugin>
           <groupId>net.ltgt.gwt.maven</groupId>
           <artifactId>gwt-maven-plugin</artifactId>
-          <version>1.0-rc-6</version>
+          <version>1.0-rc-9</version>
           <extensions>true</extensions>
           <configuration>
             <sourceLevel>1.8</sourceLevel>
@@ -165,5 +165,7 @@
     <module>sandbox-server</module>
     <module>sandbox-server-lib</module>
     <module>my-client-lib</module>
+    <module>my-client-lib-a</module>
+    <module>sandbox-gwt</module>
   </modules>
 </project>

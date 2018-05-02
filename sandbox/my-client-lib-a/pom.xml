@@ -7,7 +7,7 @@
   </parent>
   
   <groupId>net.coolcode.gwt</groupId>
-  <artifactId>my-client-lib</artifactId>
+  <artifactId>my-client-lib-a</artifactId>
   <packaging>gwt-lib</packaging>
   
   <prerequisites>
@@ -23,11 +23,6 @@
       <groupId>com.google.gwt</groupId>
       <artifactId>gwt-dev</artifactId>
     </dependency>
-    <dependency>
-      <groupId>net.coolcode.gwt</groupId>
- 	  <artifactId>my-client-lib-a</artifactId>
- 	  <version>${project.version}</version>
-    </dependency>
   </dependencies>
 
   <build>
@@ -35,10 +30,20 @@
       <plugin>
         <groupId>net.ltgt.gwt.maven</groupId>
         <artifactId>gwt-maven-plugin</artifactId>
-        <configuration>
-          <moduleName>net.coolcode.gwt.MyCoolCodeApp</moduleName>
-          <moduleShortName>myCoolCodeApp</moduleShortName>
-        </configuration>
+        <!-- configuration>
+          <moduleName>net.coolcode.gwt.mvp.MyCoolCodeAppA</moduleName>
+          <moduleShortName>myCoolCodeAppA</moduleShortName>
+        </configuration -->
+        <executions>
+          <execution>
+            <id>default-generate-module</id>
+            <phase/>
+          </execution>
+          <execution>
+            <id>default-generate-module-metadata</id>
+            <phase/>
+          </execution>
+        </executions>
       </plugin>
     </plugins>
   </build>

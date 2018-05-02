@@ -16,7 +16,15 @@
 /my-client-lib/.classpath
 /my-client-lib/.project
 /my-client-lib/target/
+/my-client-lib-a/.settings/
+/my-client-lib-a/.classpath
+/my-client-lib-a/.project
+/my-client-lib-a/target/
 /sandbox-server-lib/.settings/
 /sandbox-server-lib/.classpath
 /sandbox-server-lib/.project
 /sandbox-server-lib/target/
+/sandbox-gwt/.settings/
+/sandbox-gwt/.classpath
+/sandbox-gwt/.project
+/sandbox-gwt/target/

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<module>
+<module rename-to="myCoolCodeApp">
   <source path="client" />
   <source path="shared" />
-  <inherits name="net.coolcode.gwt.mvp.MyCoolCodeAppA" />
+  <source path="weird" />
 </module>
